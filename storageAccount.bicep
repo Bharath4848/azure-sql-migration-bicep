@@ -2,7 +2,7 @@ param environment string
 param resourceGroupName string
 param location string
 
-var storageAccountName = 'dbc${environment}storage'
+var storageAccountName = 'dbc${environment}storage' // Adjust the name according your project
 
 resource storageAccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   name: storageAccountName
