@@ -15,9 +15,9 @@ param tenantId string // Azure AD Tenant ID
 param subnetId string // SQL Managed Instance Subnet ID
 param enableDefender bool = true
 
-var managedInstanceName = 'dbc-${environment}-app-SQLMI001'
-var vnetName = 'dbc-${environment}-app-Vnet'
-var subnetName = 'dbc-${environment}-app-SubNet'
+var managedInstanceName = 'dbc-${environment}-app-SQLMI001' // Adjust the name according your project
+var vnetName = 'dbc-${environment}-app-Vnet' // Adjust the name according your project
+var subnetName = 'dbc-${environment}-app-SubNet' // Adjust the name according your project
 
 // Deploy SQL Managed Instance
 resource sqlManagedInstance 'Microsoft.Sql/managedInstances@2021-11-01' = {
