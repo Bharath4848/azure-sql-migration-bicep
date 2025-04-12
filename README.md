@@ -21,7 +21,7 @@ azure-sql-migration-bicep/
 │       └── privateEndpoints.bicep
 ├── variables/                          # Parameter files per environment
 │   ├── dev-config.yml
-│   └── prod-config.yml
+│   └── prd-config.yml
 ├── pipelines/                          # Azure DevOps pipeline definition
 │   └── azure-pipelines.yml
 ├── .github/                            # (Optional) GitHub Actions workflows
