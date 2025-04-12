@@ -34,11 +34,12 @@ azure-sql-migration-bicep/
 ```
 
 ---
-🤝 Contributing
+
+##  🤝 Contributing
 
 We welcome contributions to improve this project! Whether it's fixing bugs, adding new features, improving documentation, or providing examples, your help is appreciated.
 
-🧱 Code Contributions
+##  🧱 Code Contributions
 
 Fork the repository
 
@@ -50,7 +51,7 @@ Run any relevant tests or validation (e.g., Bicep linting)
 
 Submit a Pull Request (PR) to the main branch
 
-✅ PR Requirements
+## ✅ PR Requirements
 
 All pull requests must:
 
@@ -60,9 +61,9 @@ Pass all CI checks (if defined, e.g., Azure pipelines or GitHub Actions)
 
 Follow consistent formatting and naming conventions
 
-Include a description of the change and why it’s needed
+Please include a description of the change and why it’s needed
 
-🔍 Pull Request Reviews
+## 🔍 Pull Request Reviews
 
 To maintain code quality and consistency:
 
@@ -76,7 +77,7 @@ Ensure secrets are not hardcoded and Key Vault is used
 
 Confirm deployment compatibility with both Dev and Prod
 
-🛠️ Development Tips
+## 🛠️ Development Tips
 
 Use the Bicep Linter for static analysis
 
@@ -84,7 +85,7 @@ Test deployments using az deployment sub create before pushing
 
 Keep modules small, composable, and reusable
 
-📁 Directory Guidelines
+## 📁 Directory Guidelines
 
 All reusable modules go inside bicep/modules/
 
