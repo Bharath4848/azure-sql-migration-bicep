@@ -6,7 +6,7 @@ param subnetAddressSpaceSQLMI string
 param subnetAddressSpacePrivateEndpoint string
 
 resource vnet 'Microsoft.Network/virtualNetworks@2021-02-01' = {
-  name: 'dbc-${environment}-app-Vnet'
+  name: 'dbc-${environment}-app-Vnet' // Adjust the name according your project
   location: location
   properties: {
     addressSpace: {
@@ -14,13 +14,13 @@ resource vnet 'Microsoft.Network/virtualNetworks@2021-02-01' = {
     }
     subnets: [
       {
-        name: 'dbc-${environment}-app-SQLM1001-SubNet'
+        name: 'dbc-${environment}-app-SQLM1001-SubNet' // Adjust the name according your project
         properties: {
           addressPrefix: subnetAddressSpaceSQLMI
         }
       }
       {
-        name: 'dbc-${environment}-app-PrivateEndpoint-SubNet'
+        name: 'dbc-${environment}-app-PrivateEndpoint-SubNet' // Adjust the name according your project
         properties: {
           addressPrefix: subnetAddressSpacePrivateEndpoint
         }
